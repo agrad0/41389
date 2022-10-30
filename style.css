@@ -1,0 +1,11 @@
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    color: orange;
+    background-color: rgb(232, 229, 229);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+    text-decoration: underline;
+}
